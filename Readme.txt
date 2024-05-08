@@ -1,30 +1,31 @@
 # Cucumber Login Test
 
-This project automates the user login functionality using Cucumber and Selenium.
+This project automates a simple user login scenario using Cucumber and Selenium WebDriver.
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation and Setup](#installation-and-setup)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Customizing the Test](#customizing-the-test)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Prerequisites
-
-- Java 8 or higher
-- Maven
-- ChromeDriver (Ensure it's in your system PATH)
+Before you start, make sure you have:
+- **Java 8 or higher**
+  - [Download Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- **Maven**
+  - [Download Maven](https://maven.apache.org/download.cgi)
+- **ChromeDriver**
+  - Download ChromeDriver matching your Chrome browser version and add it to the system `PATH`.
+  - [ChromeDriver Download](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 ## Installation and Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/mohammedatif10/cucumber-login-test
+   cd cucumber-login-test
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repo/cucumber-login-test.git
-    cd cucumber-login-test
-    ```
+Update chromedriver Path
 
-2. Update `chromedriver` path in `LoginSteps.java`.
-
-3. Build the project:
-    ```bash
-    mvn clean install
-    ```
-
-## Running Tests
-
-To run the tests, execute the following command:
-```bash
-mvn test
