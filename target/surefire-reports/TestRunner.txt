@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.361 s <<< FAILURE! -- in TestRunner
+User Login.Successful login with valid credentials -- Time elapsed: 4.615 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.LoginSteps.a_welcome_message_should_be_displayed(LoginSteps.java:46)
+	at ✽.a welcome message should be displayed(file:///C:/Users/Atif/Desktop/Term/Spring'24/Advanced%20Software%20Engineering/Assignments/User%20Login/cucumber-login-test/src/test/resources/features/Login.feature:8)
+
